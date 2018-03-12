@@ -1,5 +1,3 @@
-
-
 # Reading List
 Simple Phoenix app that manages a personal list of books and reading material.
 ## First-time dev setup with Docker
@@ -17,4 +15,4 @@ Once your local app is setup, you can easily start/stop your containers with:
   * `docker-compose up`
   * `docker-compose down`
 
-### Your app should now be available on your host machine at `localhost:4000`
+### App hosted at `localhost:4000`
