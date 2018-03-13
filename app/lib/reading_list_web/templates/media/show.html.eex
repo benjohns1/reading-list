@@ -1,0 +1,28 @@
+<h2>Show Media</h2>
+
+<ul>
+
+  <li>
+    <strong>Title:</strong>
+    <%= @media.title %>
+  </li>
+
+  <li>
+    <strong>Author:</strong>
+    <%= @media.author %>
+  </li>
+
+  <li>
+    <strong>Description:</strong>
+    <%= @media.description %>
+  </li>
+
+  <li>
+    <strong>Link:</strong>
+    <%= @media.link %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: media_path(@conn, :edit, @media) %></span>
+<span><%= link "Back", to: media_path(@conn, :index) %></span>
